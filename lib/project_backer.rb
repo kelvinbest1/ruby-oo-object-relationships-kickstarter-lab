@@ -6,6 +6,7 @@ class ProjectBacker
         @backer = backer
         @@all<<self
     end
+
     def self.all
     @@all
 end
